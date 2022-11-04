@@ -94,3 +94,4 @@ Y al correr nuestro código de GitHub a partir de ahora nos dará la siguiente i
     <img src="images/graficos/pca_iris2.png"  alt=400, width=400>
 </p>
 
+En caso de estar en otro ordenador y que tengas también este repositorio de forma local, ahí no se habrán guardado estos cambios, así que **importante**, antes de hacer nada, lo ideal es hacer un ```git pull``` para extraer los cambios.
