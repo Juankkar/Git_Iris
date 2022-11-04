@@ -1,3 +1,4 @@
+
 <style>
 body {
 text-align: justify}
@@ -5,7 +6,7 @@ text-align: justify}
 
 # **Ejemplo para trabajar con los comandos de git**.
 
-Mi intención con este pequeño proyecto es explicar cómo iniciarse en el mundo de GitHub mediante los comandos de **```Git```**. Para ello vamos a ver un ejemplo de cómo usaría estos comandos en mi entorno de trabajo para desde mi ordenador local y mediante el uso de la terminal/editor de texto, modificar localmente un repositorio almacenado en esta página. 
+Este es un pequeño proyecto es explicar cómo iniciarse en el mundo de GitHub mediante los comandos de **```git```**. Para ello vamos a ver un ejemplo de cómo usaría estos comandos en mi entorno de trabajo para desde mi ordenador local y mediante el uso de la terminal/editor de texto, modificar localmente un repositorio almacenado en esta página. 
 
 He de decir que no soy un experto. Me acabo de iniciar, pero como aprender lo poco que se de ```git``` me pareció super poco intuitivo y begginer-friendly, así que comparto lo aprendido que creo que es lo básico. Y solo eso me ha facilitado la vida de manera sustancial a la hora de interactuar con esta página.
 
@@ -39,7 +40,7 @@ Usaremos como ejemplo una script en el que hemos hecho un PCA de una base de dat
 1) Ve al repositorio tu cuenta de GitHub, copiar el link donde pone code en verde:
 
 <p align="center">
-    <img src="/home/juancarlos/Desktop/Git_Iris/images/git_clone_web.png">
+    <img src="images/git_clone_web.png">
 </p>
 
 Colocandote en el directorio que quiereas de la terminal usar:
@@ -51,7 +52,7 @@ git clone repository
 * Como resultado, algo por el estilo:
 
 <p align="center">
-    <img src="/home/juancarlos/Desktop/Git_Iris/images/git_clone_local.png">
+    <img src="images/git_clone_local.png">
 </p>
 
 Hacemos los cambios que queremos, le añadimos los % a los axis y subtítulo:
@@ -67,13 +68,28 @@ git status
 ```
 
 <p align="center">
-    <img src="/home/juancarlos/Desktop/Git_Iris/images/aniadimos_glue.png">
+    <img src="images/aniadimos_glue.png">
 </p>
 
 3) Ahora añadiremos los cambios y los guardaremos. para ello seguimos el siguiente orden (n son de uno a varios archivos). Por otro lado, una cosa curiosa, es que luego en commit, con hacerlo de un archivo te los comete de todos los que han sido añadidos:
 
 ```
 git add file_n
-git commit -m files
+git commit -m files "¿Porqué el cambio?" # El comentario no es obligado pero recomandable
 ```
 
+<p align="center">
+    <img src="">
+</p>
+
+Una vez hecho estos de ya estamos listos para empujarlo a nuestra cuenta de GitHub:
+
+```
+git push
+```
+
+<p align="center">
+    <img src="">
+</p>
+
+### Resultado: el cambio se habrá enviado a nuestro repositorio en la cuenta de GitHub

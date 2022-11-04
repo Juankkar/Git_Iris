@@ -63,9 +63,9 @@ ggiris <- pc_iris %>%
                  size=.75) +
     labs(
         title="PCA for the Species of iris",
-        subtitle=glue("<span style='color:red'>{var_acumulada}% of the acumulative varianze expalined</span>"),
-        x=glue("PC1 ({var_pc1}% varianze explained)"),
-        y=glue("PC2 ({var_pc2}% varianze explained)"),
+        subtitle="<span style='color:red'>{var_acumulada}% of the acumulative varianze expalined</span>",
+        x="PC1 ({var_pc1}% varianze explained)",
+        y="PC2 ({var_pc2}% varianze explained)",
         fill=NULL, color=NULL
     ) +
     scale_fill_manual(values=c("magenta","forestgreen",
