@@ -1,12 +1,6 @@
-
-<style>
-body {
-text-align: justify}
-</style>
-
 # **Ejemplo para trabajar con los comandos de git**.
 
-Este es un pequeño proyecto es explicar cómo iniciarse en el mundo de GitHub mediante los comandos de **```git```**. Para ello vamos a ver un ejemplo de cómo usaría estos comandos en mi entorno de trabajo para desde mi ordenador local y mediante el uso de la terminal/editor de texto, modificar localmente un repositorio almacenado en esta página. 
+Este es un pequeño proyecto para intentar explicar cómo iniciarse en el mundo de GitHub mediante los comandos de **```git```**, y realizar lo que se conoce como ***"version control"***. Para ello vamos a ver un ejemplo de cómo usaría estos comandos en mi entorno de trabajo, para desde mi ordenador local y mediante el uso de la terminal/editor de texto, modificar localmente un repositorio almacenado en esta página. 
 
 He de decir que no soy un experto. Me acabo de iniciar, pero como aprender lo poco que se de ```git``` me pareció super poco intuitivo y begginer-friendly, así que comparto lo aprendido que creo que es lo básico. Y solo eso me ha facilitado la vida de manera sustancial a la hora de interactuar con esta página.
 
@@ -23,9 +17,9 @@ Antes de todo esto necesitas tener a punto, 1 tu cuenta de GitHub, 2 tus credenc
 
 ## Ejemplo de PCA de especies de iris.
 
-Usaremos como ejemplo una script en el que hemos hecho un PCA de una base de datos que se encuentra de serie en R, se llama iris, que presenta 3 especies de esatas plantas.
+Usaremos como ejemplo un script en el que he realizado un PCA de una base de datos que se encuentra de serie en R, se llama iris, que presenta 3 especies de estas plantas.
 
-### Problema: hemos realizado el suguiente gráfico con los resultados de este análisis. Queremos cambiar los "?" por los % de las varianzas explicadas y acumulada de las 2 primeras componentes:
+### Problema: hemos realizado el siguiente gráfico con los resultados de este análisis. Queremos cambiar los "?" por los % de las varianzas explicadas y acumulada de las 2 primeras componentes:
 
 ---
 
