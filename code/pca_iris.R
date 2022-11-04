@@ -63,9 +63,9 @@ ggiris <- pc_iris %>%
                  size=.75) +
     labs(
         title="PCA for the Species of iris",
-        subtitle=glue("<span style='color:red'>?% of the acumulative varianze expalined</span>"),
-        x=glue("PC1 (?% varianze explained)"),
-        y=glue("PC2 (?% varianze explained)"),
+        subtitle=glue("<span style='color:red'>{var_acumulada}% of the acumulative varianze expalined</span>"),
+        x=glue("PC1 ({var_pc1}% varianze explained)"),
+        y=glue("PC2 ({var_pc2}% varianze explained)"),
         fill=NULL, color=NULL
     ) +
     scale_fill_manual(values=c("magenta","forestgreen",
@@ -87,7 +87,6 @@ ggiris <- pc_iris %>%
     ) 
 
 
-ggsave("images/pca_iris.png", 
+ggsave("images/pca_iris2.png", 
        width=6, height=5)
 
-getwd()

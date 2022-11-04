@@ -56,3 +56,24 @@ git clone repository
 
 Hacemos los cambios que queremos, le añadimos los % a los axis y subtítulo:
 
+<p align="center">
+    <img src="/home/juancarlos/Desktop/Git_Iris/images/aniadimos_glue.png">
+</p>
+
+2) Vemos lo que hay que añadir y guardar, para ello usamos únicamente el siguiente comando en la línea de comandos:
+
+```
+git status
+```
+
+<p align="center">
+    <img src="/home/juancarlos/Desktop/Git_Iris/images/aniadimos_glue.png">
+</p>
+
+3) Ahora añadiremos los cambios y los guardaremos. para ello seguimos el siguiente orden (n son de uno a varios archivos). Por otro lado, una cosa curiosa, es que luego en commit, con hacerlo de un archivo te los comete de todos los que han sido añadidos:
+
+```
+git add file_n
+git commit -m files
+```
+
