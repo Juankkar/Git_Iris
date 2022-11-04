@@ -30,7 +30,7 @@ Usaremos como ejemplo una script en el que hemos hecho un PCA de una base de dat
 ---
 
 <p align='center'>
-    <img src="images/pca_iris.png" alt=400, width=400>
+    <img src="images/graficos/pca_iris.png" alt=400, width=400>
 </p>
 
 ---
@@ -40,7 +40,7 @@ Usaremos como ejemplo una script en el que hemos hecho un PCA de una base de dat
 1) Ve al repositorio tu cuenta de GitHub, copiar el link donde pone code en verde:
 
 <p align="center">
-    <img src="images/git_clone_web.png">
+    <img src="images/comandos_git/git_clone_web.png">
 </p>
 
 Colocandote en el directorio que quiereas de la terminal usar:
@@ -52,13 +52,13 @@ git clone repository
 * Como resultado, algo por el estilo:
 
 <p align="center">
-    <img src="images/git_clone_local.png">
+    <img src="images/comandos_git/git_clone_local.png">
 </p>
 
 Hacemos los cambios que queremos, le añadimos los % a los axis y subtítulo:
 
 <p align="center">
-    <img src="/home/juancarlos/Desktop/Git_Iris/images/aniadimos_glue.png">
+    <img src="images/graficos/aniadimos_glue.png">
 </p>
 
 2) Vemos lo que hay que añadir y guardar, para ello usamos únicamente el siguiente comando en la línea de comandos:
@@ -68,28 +68,35 @@ git status
 ```
 
 <p align="center">
-    <img src="images/aniadimos_glue.png">
+    <img src="images/comandos_git/git_status.png">
 </p>
 
 3) Ahora añadiremos los cambios y los guardaremos. para ello seguimos el siguiente orden (n son de uno a varios archivos). Por otro lado, una cosa curiosa, es que luego en commit, con hacerlo de un archivo te los comete de todos los que han sido añadidos:
 
 ```
 git add file_n
-git commit -m files "¿Porqué el cambio?" # El comentario no es obligado pero recomandable
+git commit -m "Por qué del cambio" 
 ```
 
 <p align="center">
-    <img src="">
+    <img src="images/comandos_git/git_add_commit.png">
 </p>
 
-Una vez hecho estos de ya estamos listos para empujarlo a nuestra cuenta de GitHub:
+Una vez hecho estos de ya estamos listos para empujarlo a nuestra cuenta de GitHub (lo normal es que al clonar, al hacer pull, o push, te pida tu "passphrase", por eso es necesario tener la ***SHH key*** antes que nada):
 
 ```
 git push
 ```
 
 <p align="center">
-    <img src="">
+    <img src="images/comandos_git/git_push.png">
 </p>
 
-### Resultado: el cambio se habrá enviado a nuestro repositorio en la cuenta de GitHub
+### Resultado: el cambio se habrá enviado a nuestro repositorio en la cuenta de GitHub. 
+
+Y al correr nuestro código de GitHub a partir de ahora nos dará la siguiente imagen:
+
+<p align="center">
+    <img src="images/graficos/pca_iris2.png"  alt=400, width=400>
+</p>
+
