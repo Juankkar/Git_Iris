@@ -97,11 +97,11 @@ Y al correr nuestro código de GitHub a partir de ahora nos dará la siguiente i
 Podemos ver además los commit:
 
 <p align="center">
-    <img src="images/comandos_git/reloj.png"  alt=400, width=400>
+    <img src="images/comandos_git/reloj.png"  alt=600, width=600>
 </p>
 
 <p align="center">
-    <img src="images/comandos_git/Cambios_reloj.png"  alt=400, width=400>
+    <img src="images/comandos_git/Cambios_reloj.png"  alt=600, width=600>
 </p>
 
 En caso de estar en otro ordenador y que tengas también este repositorio de forma local, ahí no se habrán guardado estos cambios, así que **importante**, antes de hacer nada, lo ideal es hacer un ```git pull``` para extraer los cambios.
