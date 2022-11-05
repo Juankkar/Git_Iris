@@ -101,6 +101,8 @@ git add file/s
 git commit -m "Por qué del cambio" 
 ```
 
+Una cosa que acabo de descubrir, es que una de las opciones de git add es: ```git add -A```, que añade todos los cambios hecho, en vez de estar añadiendo cambio por cambio de cada fichero.
+
 <p align="center">
     <img src="images/comandos_git/git_add_commit.png">
 </p>
