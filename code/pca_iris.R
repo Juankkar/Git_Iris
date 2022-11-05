@@ -2,7 +2,7 @@
 library(tidyverse)
 library(glue)
 library(ggthemes)
-library(openxlsx)
+library(xlsx)
 library(ggtext)
 
 # Echamos un vistazo a los datos de iris esta base de 
@@ -17,10 +17,11 @@ iris %>% nrow()
 iris %>%
     group_by(Species) %>%
     count()
+
 # Guardamos los datos en datos crudos, para que parezca
-# un pipeline de verdad. xlsx no va en linux :(, usaremos
-# openxlsx: fail por el momento
-# write.table(iris, "data/raw/iris.csv", sep=",")
+# un pipeline de verdad.
+# write_csv(iris, "C:\\Users\\jcge9\\Desktop\\Git_Iris\\data\\processed\\iris.csv")
+
 # Como vamos a hacer un pca nos interesa únicamente
 # las variables cuantitativas por el momento
 matrix_iris <- iris[,-5] 
@@ -62,10 +63,10 @@ ggiris <- pc_iris %>%
     stat_ellipse(geom="polygon",alpha=.35,
                  size=.75) +
     labs(
-        title="PCA for the Species of iris",
-        subtitle=glue("<span style='color:red'>{var_acumulada}% of the acumulative varianze expalined</span>"),
-        x=glue("PC1 ({var_pc1}% varianze explained)"),
-        y=glue("PC2 ({var_pc2}% varianze explained)"),
+        title="PCA de las especies de Iris",
+        subtitle=glue("<span style='color:red'>{var_acumulada}% de la varianza acumulada explicada</span>"),
+        x=glue("PC1 ({var_pc1}% varianza explicada)"),
+        y=glue("PC2 ({var_pc2}% varianza explicada)"),
         fill=NULL, color=NULL
     ) +
     scale_fill_manual(values=c("magenta","forestgreen",
@@ -88,5 +89,5 @@ ggiris <- pc_iris %>%
 
 
 ggsave("images/pca_iris2.png", 
-       width=6, height=5)
+        width=6, height=5)
 
