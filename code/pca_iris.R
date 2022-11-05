@@ -64,9 +64,9 @@ ggiris <- pc_iris %>%
                  size=.75) +
     labs(
         title="PCA de las especies de Iris",
-        subtitle=glue("<span style='color:red'>{var_acumulada}% de la varianza acumulada explicada</span>"),
-        x=glue("PC1 ({var_pc1}% varianza explicada)"),
-        y=glue("PC2 ({var_pc2}% varianza explicada)"),
+        subtitle=glue("<span style='color:red'>?% de la varianza acumulada explicada</span>"),
+        x=glue("PC1 (?% varianza explicada)"),
+        y=glue("PC2 (?% varianza explicada)"),
         fill=NULL, color=NULL
     ) +
     scale_fill_manual(values=c("magenta","forestgreen",

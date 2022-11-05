@@ -1,17 +1,11 @@
 # **Ejemplo para trabajar con los comandos de git**.
 
 1. [Intoducción](#1-introducción)
-
 2. [Comandos básicos](#2-comandos-básicos)
-
 3. [Ejemplo de PCA de especies de iris.](#3-ejemplo-de-pca-de-especies-de-iris)
-
     -   [Script a usar](#31-script-a-usar-pca_irisr)
-
     -   [Problema](#32-problema)
-
-    -   [Pasos a seguir](#33-pasos-a-seguir)
-    
+    -   [Pasos a seguir](#33-pasos-a-seguir)    
         -   [git clone](#331-git-clone-y-añadir-porcentajes-al-script)
         -   [git status](#332-git-status)
         -   [git add y git commit -m](#333-git-add-y-git-commit)
